@@ -1,0 +1,11 @@
+[server]
+port = "8080"
+read_timeout = 30
+write_timeout = 30
+
+[storage]
+host = "docker.for.mac.host.internal"
+port = "5433"
+user = "postgres"
+db_name = "postgres"
+password = "postgres"
